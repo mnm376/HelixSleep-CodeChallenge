@@ -1,10 +1,8 @@
 <template>
     <div class="hs-vue-app">
-        <p>Header</p><hr>
         <Header
             :title="product.title"
         />
-        <p>Product Info</p><hr>
         <ProductInfo
             :product="product"
         />
