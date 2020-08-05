@@ -5,37 +5,37 @@
   "features": [
     {
       "image": {
-        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/free-shipping.png",
+        "src": "/images/global/icons/free-shipping.png",
         "alt": "Free Shipping Icon"
       }
     },
     {
       "image": {
-        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/trial.png",
+        "src": "/images/global/icons/trial.png",
         "alt": "Free 365 Day Trial Icon"
       }
     },
     {
       "image": {
-        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/made-in-america.png",
+        "src": "/images/global/icons/made-in-america.png",
         "alt": "Made in America Icon"
       }
     },
     {
       "image": {
-        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/warranty.png",
+        "src": "/images/global/icons/warranty.png",
         "alt": "10 Year Warranty Icon"
       }
     },
     {
       "image": {
-        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/assembly.png",
+        "src": "/images/global/icons/assembly.png",
         "alt": "Super Easy Assembly Icon"
       }
     },
     {
       "image": {
-        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/materials.png",
+        "src": "/images/global/icons/materials.png",
         "alt": "High Quality Materials Icon"
       }
     }
@@ -52,7 +52,7 @@
         "compare_price": "1450",
         "price": "1300",
         "image": {
-          "src": "~/assets/products/the-sofa/sofa-amber.jpg",
+          "src": "/images/products/the-sofa/sofa-amber.jpg",
           "alt": "Amber Sofa Image"
         }
       },
@@ -62,7 +62,7 @@
         "compare_price": "1450",
         "price": "1050",
         "image":  {
-          "src":"~/assets/products/the-sofa/sofa-charcoal.jpg",
+          "src":"/images/products/the-sofa/sofa-charcoal.jpg",
           "alt": "Charcoal Sofa Image"
         }
       },
@@ -72,7 +72,7 @@
         "compare_price": "1450",
         "price": "1250",
         "image":  {
-          "src": "~/assets/products/the-sofa/sofa-red.jpg",
+          "src": "/images/products/the-sofa/sofa-red.jpg",
           "alt": "Red Sofa Image"
         }
       }

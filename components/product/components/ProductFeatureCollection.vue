@@ -3,7 +3,7 @@
         Feature Collection<hr>
         <ul class="hs-feature-list">
             <li v-for="feature in features">
-                <img :src=feature.image.src alt=""/> {{ feature.image.src }} || {{ feature.image.alt}}
+                <img :src="feature.image.src" alt=""/> {{ feature.image.src }} || {{ feature.image.alt}}
             </li>
         </ul>
     </div>
