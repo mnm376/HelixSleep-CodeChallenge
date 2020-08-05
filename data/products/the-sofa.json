@@ -1,0 +1,81 @@
+{
+  "id": "180375",
+  "title": "The Sofa",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac dui interdum, tincidunt velit sit amet.",
+  "features": [
+    {
+      "image": {
+        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/free-shipping.png",
+        "alt": "Free Shipping Icon"
+      }
+    },
+    {
+      "image": {
+        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/trial.png",
+        "alt": "Free 365 Day Trial Icon"
+      }
+    },
+    {
+      "image": {
+        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/made-in-america.png",
+        "alt": "Made in America Icon"
+      }
+    },
+    {
+      "image": {
+        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/warranty.png",
+        "alt": "10 Year Warranty Icon"
+      }
+    },
+    {
+      "image": {
+        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/assembly.png",
+        "alt": "Super Easy Assembly Icon"
+      }
+    },
+    {
+      "image": {
+        "src": "https://helixsleep-code-challenge.s3.amazonaws.com/materials.png",
+        "alt": "High Quality Materials Icon"
+      }
+    }
+  ],
+  "availability": "Ships in 5-7 Business Days",
+  "configurator": {
+    "type": "Fabric Choices",
+    "selection-text": "Choose a fabric",
+    "selection-text-detail": "Choose your choice from fabrics to leather",
+    "selection": [
+      {
+        "name": "Amber",
+        "sku": "180375190",
+        "compare_price": "1450",
+        "price": "1300",
+        "image": {
+          "src": "~/assets/products/the-sofa/sofa-amber.jpg",
+          "alt": "Amber Sofa Image"
+        }
+      },
+      {
+        "name": "Charcoal",
+        "sku": "18037568",
+        "compare_price": "1450",
+        "price": "1050",
+        "image":  {
+          "src":"~/assets/products/the-sofa/sofa-charcoal.jpg",
+          "alt": "Charcoal Sofa Image"
+        }
+      },
+      {
+        "name": "Red",
+        "sku": "180375193",
+        "compare_price": "1450",
+        "price": "1250",
+        "image":  {
+          "src": "~/assets/products/the-sofa/sofa-red.jpg",
+          "alt": "Red Sofa Image"
+        }
+      }
+    ]
+  }
+}
