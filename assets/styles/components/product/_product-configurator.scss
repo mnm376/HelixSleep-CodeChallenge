@@ -28,7 +28,7 @@
   &_selection-choices {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
+    justify-content: space-between;
     margin: remify(14px) 0;
     padding: 0;
   }

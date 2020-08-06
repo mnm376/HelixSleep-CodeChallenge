@@ -1,11 +1,9 @@
 .hs-product-select-box {
-  flex-grow: 1;
-
-  &_container {
-    height: remify(166px);
-    width: remify(134px);
-    margin-right: remify(4px);
-  }
+  flex: 1 1 31%;
+  margin-right: remify(6px);
+  height: remify(166px);
+  min-width: remify(96px);
+  max-width: 50%;
 
   &_image {
     width: 100%;
@@ -37,6 +35,7 @@
         border: $c_lightblue solid 2px;
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
+        border-bottom: none;
       }
       &_button {
         background-color: $c_lightblue;
@@ -48,10 +47,6 @@
   }
 
   &:last-child {
-    .hs-product-select-box {
-      &_container {
-        margin-right: 0;
-      }
-    }
+    margin-right: 0;
   }
 }

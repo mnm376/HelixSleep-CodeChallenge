@@ -1,9 +1,7 @@
 <template>
     <div
-        :class="{
-                  'hs-product-select-box': true,
-                  'active': (this.$store.state.active_product.sku === product.sku)
-        }"
+        class="hs-product-select-box"
+        :class="{ 'active': (this.$store.state.active_product.sku === product.sku)}"
     >
         <div
             v-on:click="update"
