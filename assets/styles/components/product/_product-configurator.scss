@@ -26,6 +26,9 @@
   }
 
   &_selection-choices {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
     margin: remify(14px) 0;
     padding: 0;
   }

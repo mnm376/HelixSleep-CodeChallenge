@@ -1,12 +1,15 @@
 .hs-product-select-box {
+  flex-grow: 1;
 
   &_container {
     height: remify(166px);
-    width: remify(144px);
+    width: remify(134px);
+    margin-right: remify(4px);
   }
 
   &_image {
     width: 100%;
+    margin-bottom: remify(20px);
   }
 
   &_button {
@@ -26,5 +29,29 @@
     color: $c_darkgrey;
     font-size: remify(14px);
     line-height: remify(20px);
+  }
+
+  &.active {
+    .hs-product-select-box {
+      &_image-container {
+        border: $c_lightblue solid 2px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+      }
+      &_button {
+        background-color: $c_lightblue;
+      }
+      &_button-text {
+        color: $c_white;
+      }
+    }
+  }
+
+  &:last-child {
+    .hs-product-select-box {
+      &_container {
+        margin-right: 0;
+      }
+    }
   }
 }
