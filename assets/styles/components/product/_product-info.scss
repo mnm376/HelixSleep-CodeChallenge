@@ -1,0 +1,18 @@
+.hs-product-info {
+  &_container {
+    max-width: $w_max;
+    margin: remify(32px) remify(16px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@include desktop {
+  .hs-product-info {
+    &_container {
+      flex-wrap: nowrap;
+      margin: remify(60px) auto;
+    }
+  }
+}

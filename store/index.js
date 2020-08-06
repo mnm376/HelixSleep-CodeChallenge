@@ -5,10 +5,10 @@ const createStore = () => {
     return new Vuex.Store({
         state: () => ({
             active_product: {
-                name: "",
-                sku: "",
-                compare_price: 0,
-                price: 0,
+                name: "Red",
+                sku: "180375193",
+                compare_price: 1450,
+                price: 1250,
                 image: {
                     src: "",
                     alt: "alt-text"

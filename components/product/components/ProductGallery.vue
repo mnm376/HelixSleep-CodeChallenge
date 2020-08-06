@@ -1,13 +1,10 @@
 <template>
     <div class="hs-product-gallery">
-        <ProductHeader
-            :availability="availability"
-        />
-        <div class="hs-product-primary-image">
-        </div>
-        <ProductFeatureCollection
-            :features="features"
-        />
+      <ProductHeader :availability="availability"/>
+      <div class="hs-product-gallery_image-container">
+        <img class="hs-product-gallery_image" src="/images/products/the-sofa/sofa-amber.jpg"/>
+      </div>
+      <ProductFeatureCollection :features="features"/>
     </div>
 </template>
 

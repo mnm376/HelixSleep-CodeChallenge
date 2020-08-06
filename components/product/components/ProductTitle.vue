@@ -1,12 +1,12 @@
 <template>
     <div class="hs-product-title">
         <div class="hs-product-title_container">
-            <div class="hs-product-title_title-text">
-                {{ title }}
-            </div>
-            <div class="hs-product-title_description">
-                {{ description }}
-            </div>
+            <div class="hs-product-title_text">{{ title }}</div>
+            <span
+                class="hs-product-title_description"
+                v-html="description"
+            >
+            </span>
         </div>
     </div>
 </template>

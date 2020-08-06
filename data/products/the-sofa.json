@@ -1,41 +1,42 @@
 {
   "id": "180375",
   "title": "The Sofa",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac dui interdum, tincidunt velit sit amet.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Donec ac dui interdum, tincidunt velit sit amet.",
+
   "features": [
     {
       "image": {
-        "src": "/images/global/icons/free-shipping.png",
+        "src": "/images/global/icons/free-shipping.svg",
         "alt": "Free Shipping Icon"
       }
     },
     {
       "image": {
-        "src": "/images/global/icons/trial.png",
+        "src": "/images/global/icons/trial.svg",
         "alt": "Free 365 Day Trial Icon"
       }
     },
     {
       "image": {
-        "src": "/images/global/icons/made-in-america.png",
+        "src": "/images/global/icons/made-in-america.svg",
         "alt": "Made in America Icon"
       }
     },
     {
       "image": {
-        "src": "/images/global/icons/warranty.png",
+        "src": "/images/global/icons/warranty.svg",
         "alt": "10 Year Warranty Icon"
       }
     },
     {
       "image": {
-        "src": "/images/global/icons/assembly.png",
+        "src": "/images/global/icons/assembly.svg",
         "alt": "Super Easy Assembly Icon"
       }
     },
     {
       "image": {
-        "src": "/images/global/icons/materials.png",
+        "src": "/images/global/icons/materials.svg",
         "alt": "High Quality Materials Icon"
       }
     }
@@ -49,8 +50,8 @@
       {
         "name": "Amber",
         "sku": "180375190",
-        "compare_price": "1450",
-        "price": "1300",
+        "compare_price": 1450,
+        "price": 1300,
         "image": {
           "src": "/images/products/the-sofa/sofa-amber.jpg",
           "alt": "Amber Sofa Image"
@@ -59,8 +60,8 @@
       {
         "name": "Charcoal",
         "sku": "18037568",
-        "compare_price": "1450",
-        "price": "1050",
+        "compare_price": 1450,
+        "price": 1050,
         "image":  {
           "src":"/images/products/the-sofa/sofa-charcoal.jpg",
           "alt": "Charcoal Sofa Image"
@@ -69,8 +70,8 @@
       {
         "name": "Red",
         "sku": "180375193",
-        "compare_price": "1450",
-        "price": "1250",
+        "compare_price": 1450,
+        "price": 1250,
         "image":  {
           "src": "/images/products/the-sofa/sofa-red.jpg",
           "alt": "Red Sofa Image"

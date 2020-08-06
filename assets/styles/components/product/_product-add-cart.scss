@@ -1,0 +1,76 @@
+.hs-product-add-cart {
+  margin-top: remify(26px);
+  padding-bottom: remify(40px);
+  border-bottom: $c_white solid 1px;
+  text-align: center;
+
+  &_price-container {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: remify(28px);
+  }
+
+  &_buy {
+    flex: 1;
+    border-right: $c_white solid 1px;
+    //padding: 0 remify(16px);
+    margin: 0 remify(16px);
+  }
+
+  &_buy-text, &_klarna-text {
+    font-size: remify(20px);
+    margin-bottom: remify(14px);
+  }
+
+  &_buy-price, &_klarna-price {
+    font-size: remify(40px);
+    color: $c_red;
+    margin: remify(14px) 0;
+  }
+
+  &_buy-compare, &_klarna-second-text {
+    font-size: remify(20px);
+    margin-bottom: remify(8px);
+  }
+
+  &_buy-compare {
+    text-decoration: line-through;
+  }
+
+  &_klarna {
+    flex: 1;
+  }
+
+  &_klarna-month {
+    font-size: remify(20px);
+    color: $c_red;
+  }
+
+  &_klarna-learn-more {
+    color: $c_darkgrey;
+    text-underline-position: under;
+  }
+
+  &_button {
+    width: 100%;
+    color: $c_white;
+    background-color: $c_blue;
+    font-family: $f_title;
+    font-size: remify(20px);
+    line-height: remify(24px);
+    border-width: 0;
+    border-radius: remify(6px);
+    padding: remify(12px) 0;
+    margin-bottom: remify(12px);
+  }
+
+  &_save-text {
+    font-family: $f_title;
+    color: $c_darkgrey;
+    text-underline-position: under;
+    text-decoration-color: $c_blue;
+    font-size: remify(14px);
+    line-height: remify(18px);
+  }
+
+}

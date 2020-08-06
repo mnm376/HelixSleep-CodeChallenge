@@ -1,0 +1,38 @@
+.hs-product-feature-collection {
+
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+
+  &_list-item {
+    flex: 0 0 calc(33% - 28px);
+    margin: remify(10px) remify(14px) remify(10px) 0;
+    //width: remify(100px);
+  }
+
+  &_image {
+    width:100%;
+  }
+}
+
+@include desktop {
+  .hs-product-feature-collection {
+  }
+}
+
+@include desktop-xl {
+  .hs-product-feature-collection {
+    &_list {
+      flex-wrap: nowrap;
+    }
+    &_list-item {
+      flex: 0 1 auto;
+    }
+  }
+}
+

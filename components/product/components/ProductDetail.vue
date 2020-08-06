@@ -4,7 +4,7 @@
             :title="title"
             :description="description"
         />
-        <ProductAddToCart/>
+        <ProductAddCart/>
         <ProductConfigurator
             :configurator="configurator"
         />
@@ -14,13 +14,13 @@
 
 <script>
     import ProductTitle from "./ProductTitle";
-    import ProductAddToCart from "./ProductAddToCart";
+    import ProductAddCart from "./ProductAddCart";
     import ProductConfigurator from "./ProductConfigurator";
     export default {
         name: "ProductDetail",
         components: {
             ProductConfigurator,
-            ProductAddToCart,
+            ProductAddCart,
             ProductTitle
         },
         props: {

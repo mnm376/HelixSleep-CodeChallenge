@@ -1,0 +1,12 @@
+.hs-product-detail {
+  width: 100%;
+  //max-width: remify(234px);
+}
+
+@include desktop {
+  .hs-product-detail {
+    flex: 1 1 33%;
+    max-width: remify(440px);
+    margin-right: remify(40px);
+  }
+}

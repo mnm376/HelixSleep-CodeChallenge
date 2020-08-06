@@ -1,0 +1,13 @@
+body {
+  font-family: $f_body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $f_title;
+}
+
+p {
+  font-family: $f_body;
+  font-size: remify(16px);
+  line-height: remify(20px);
+}

@@ -1,0 +1,36 @@
+.hs-product-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: $f_body;
+  font-size: remify(16px);
+  line-height: remify(18px);
+  letter-spacing: remify(0.02px);
+
+  &_checkout {
+    margin: remify(6px) remify(6px) remify(6px) 0;
+    &::before {
+      content: "";
+      display: block;
+      background: url("/images/global/icons/padlock.svg") no-repeat;
+      width: 20px;
+      height: 20px;
+      float: left;
+      margin: 0 remify(6px) 0 0;
+    }
+  }
+
+  &_availability {
+    margin: remify(6px) 0;
+  }
+}
+
+@include desktop {
+  .hs-product-header {
+    &_checkout {
+      &:before {
+        margin: 0 remify(10px) 0 0;
+      }
+    }
+  }
+}

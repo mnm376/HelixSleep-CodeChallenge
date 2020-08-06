@@ -1,11 +1,11 @@
 <template>
     <nav class="hs-header">
         <div class="hs-header-mobile">
-            <p>{{ title }}</p>
-            <p>Reviews</p>
-            <p>About Us</p>
-            <p>Showroom</p>
-            <p>Swatches</p>
+            <span>{{ title }}</span>
+            <span>Reviews</span>
+            <span>About Us</span>
+            <span>Showroom</span>
+            <span>Swatches</span>
         </div>
     </nav>
 </template>

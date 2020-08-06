@@ -1,0 +1,17 @@
+/*Common*/
+@import 'assets/styles/common/fonts';
+@import 'assets/styles/common/functions';
+@import 'assets/styles/common/variables';
+@import 'assets/styles/common/normalize';
+@import 'assets/styles/common/mixins';
+@import 'assets/styles/common/base';
+
+/*Components*/
+@import 'assets/styles/components/global/header';
+@import 'assets/styles/components/product/product-info';
+@import 'assets/styles/components/product/product-gallery';
+@import 'assets/styles/components/product/product-header';
+@import 'assets/styles/components/product/product-detail';
+@import 'assets/styles/components/product/product-feature-collection';
+@import 'assets/styles/components/product/product-title';
+@import 'assets/styles/components/product/product-add-cart';

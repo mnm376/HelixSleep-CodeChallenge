@@ -1,0 +1,17 @@
+.hs-product-title {
+  margin-bottom: remify(26px);
+
+  &_text {
+    font-family: $f_title;
+    font-size: remify(40px);
+    line-height: remify(48px);
+    color: $c_darkblue;
+    margin-bottom: remify(8px);
+  }
+
+  &_description {
+    font-family: $f_body;
+    font-size: remify(16px);
+    line-height: remify(20px);
+  }
+}

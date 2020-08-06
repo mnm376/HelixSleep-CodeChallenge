@@ -1,0 +1,8 @@
+.hs-header {
+  font-family: $f_title;
+}
+
+@include desktop {
+  .hs-header {
+  }
+}
