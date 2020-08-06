@@ -1,0 +1,19 @@
+.hs-product-configurator {
+  margin: remify(30px) 0;
+
+  &_intro {
+    font-size: remify(16px);
+    line-height: remify(20px);
+    margin: remify(30px) 0;
+  }
+
+  &_intro-title {
+    font-family: $f_title;
+    color: $c_darkblue;
+    margin-bottom: remify(2px);
+  }
+
+  &_intro-detail {
+    color: $c_darkgrey;
+  }
+}
