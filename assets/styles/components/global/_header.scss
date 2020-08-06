@@ -1,8 +1,183 @@
 .hs-header {
   font-family: $f_title;
+
+  &_nav {
+    display: flex;
+  }
+
+  &_hamburger {
+    flex: 0 0 auto;
+    top: 5px;
+    left: 0;
+  }
+
+  &_mobile-image {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  &.active {
+    .hs-header {
+      &_hamburger {
+        position: fixed;
+        z-index: 2;
+        //left: 80%;
+        //transition: 0.5s;
+      }
+      &_nav-items {
+        width: 100%;
+      }
+      &_nav-logo {
+        order: 0;
+        margin-left: remify(60px);
+      }
+    }
+  }
+
+  &_nav-items {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: $c_white;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  &_nav-item {
+    padding: remify(8px) remify(8px) remify(8px) remify(32px);
+    text-decoration: none;
+    font-size: remify(24px);
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+
+  &_nav-item:hover {
+    color: blue;
+  }
+
 }
 
 @include desktop {
   .hs-header {
+    margin: remify(36px) remify(36px) 0;
+
+    &_hamburger, &_mobile-image{
+      display: none;
+    }
+
+    &_nav-items {
+      all: unset;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    &_nav-item {
+      padding-left: remify(8px);
+      font-size: remify(16px);
+      line-height: remify(20px);
+    }
+
+    &_nav-item:nth-of-type(1) { order: 1; }
+    &_nav-item:nth-of-type(2) { order: 2; }
+    &_nav-item:nth-of-type(3) { order: 3; }
+    &_nav-item:nth-of-type(4) { order: 5; }
+    &_nav-item:nth-of-type(5) { order: 6; }
+    &_nav-logo {
+      order: 4;
+      flex: 1 1 auto;
+    }
+  }
+}
+
+/*
+  Hamburger/Animation taken from:
+  https://codepen.io/designcouch/pen/Atyop
+*/
+.hs-header {
+  &_hamburger {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+  &_hamburger span {
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background: $c_darkblue;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+
+  &_hamburger span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+
+  &_hamburger span:nth-child(2) {
+    top: 18px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+
+  &_hamburger span:nth-child(3) {
+    top: 36px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+
+  &_hamburger.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -3px;
+    left: 8px;
+  }
+
+  &_hamburger.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+  }
+
+  &_hamburger.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 39px;
+    left: 8px;
   }
 }
