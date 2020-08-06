@@ -53,7 +53,7 @@
         "compare_price": 1450,
         "price": 1300,
         "image": {
-          "src": "/images/products/the-sofa/sofa-amber.jpg",
+          "src": "/images/products/the-sofa/sofa-amber-reversed.png",
           "alt": "Amber Sofa Image"
         }
       },
@@ -63,7 +63,7 @@
         "compare_price": 1450,
         "price": 1050,
         "image":  {
-          "src":"/images/products/the-sofa/sofa-charcoal.jpg",
+          "src":"/images/products/the-sofa/sofa-charcoal.png",
           "alt": "Charcoal Sofa Image"
         }
       },
@@ -73,7 +73,7 @@
         "compare_price": 1450,
         "price": 1250,
         "image":  {
-          "src": "/images/products/the-sofa/sofa-red.jpg",
+          "src": "/images/products/the-sofa/sofa-red.png",
           "alt": "Red Sofa Image"
         }
       }

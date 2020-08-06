@@ -10,7 +10,7 @@ const createStore = () => {
                 compare_price: 1450,
                 price: 1250,
                 image: {
-                    src: "",
+                    src: "/images/products/the-sofa/sofa-red.png",
                     alt: "alt-text"
                 }
             }

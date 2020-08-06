@@ -2,7 +2,11 @@
     <div class="hs-product-gallery">
       <ProductHeader :availability="availability"/>
       <div class="hs-product-gallery_image-container">
-        <img class="hs-product-gallery_image" src="/images/products/the-sofa/sofa-amber.jpg"/>
+        <img
+            class="hs-product-gallery_image"
+            :src="this.$store.state.active_product.image.src"
+            :alt="this.$store.state.active_product.image.alt"
+        />
       </div>
       <ProductFeatureCollection :features="features"/>
     </div>

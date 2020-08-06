@@ -1,0 +1,30 @@
+.hs-product-select-box {
+
+  &_container {
+    height: remify(166px);
+    width: remify(144px);
+  }
+
+  &_image {
+    width: 100%;
+  }
+
+  &_button {
+    position: relative;
+    height: remify(40px);
+    background-color: #E8E8E8;
+    border-bottom: #E8E8E8 solid 1px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  &_button-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $c_darkgrey;
+    font-size: remify(14px);
+    line-height: remify(20px);
+  }
+}

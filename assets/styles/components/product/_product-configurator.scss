@@ -16,4 +16,17 @@
   &_intro-detail {
     color: $c_darkgrey;
   }
+
+  &_selection-title {
+    font-family: $f_body;
+    color: $c_grey;
+    font-size: remify(16px);
+    line-height: remify(20px);
+    font-weight: 600;
+  }
+
+  &_selection-choices {
+    margin: remify(14px) 0;
+    padding: 0;
+  }
 }
