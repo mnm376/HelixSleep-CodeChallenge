@@ -18,7 +18,7 @@
         </div>
         <div class="hs-header_nav-items">
           <img src="/images/global/logo/logo.svg" alt="Allsleep Logo" class="hs-header_nav-logo">
-          <a href=# class="hs-header_nav-item">{{ title }}</a>
+          <a href=# class="hs-header_nav-item active">{{ title }}</a>
           <a href=# class="hs-header_nav-item">Reviews</a>
           <a href=# class="hs-header_nav-item">About Us</a>
           <a href=# class="hs-header_nav-item">Showroom</a>
