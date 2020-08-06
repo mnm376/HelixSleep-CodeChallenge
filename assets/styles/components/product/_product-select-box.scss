@@ -5,6 +5,9 @@
   min-width: remify(96px);
   max-width: 50%;
 
+  &_image-container {
+    border: transparent solid 2px;
+  }
   &_image {
     width: 100%;
     margin-bottom: remify(20px);
@@ -32,13 +35,13 @@
   &.active {
     .hs-product-select-box {
       &_image-container {
-        border: $c_lightblue solid 2px;
+        border: $c_blue solid 2px;
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
         border-bottom: none;
       }
       &_button {
-        background-color: $c_lightblue;
+        background-color: $c_blue;
       }
       &_button-text {
         color: $c_white;
