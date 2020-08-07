@@ -46,3 +46,12 @@ Future features/fixes include (note: some todos are mentioned in the files if no
         * Rename style names to prevent repeating "product" so much
     * Components
         * Would be an in-person conversation
+    * Misc
+        * Handle condition/style when there is no discount
+        * Discuss UI setbacks
+        * Redo nav (rushed due to time)
+        * Redo resizing of feature icons
+        * Have payment option/classes dynamic (klarna classname hardcoded due to time)
+        * Get clarification of add to cart component styling (not obtainable via figma)
+        * Need transparent images, images provided do not match design (edited manually to replicate)
+        * Clarify Raleway font looking different from figma's Raleway
