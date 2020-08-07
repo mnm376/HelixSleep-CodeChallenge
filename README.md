@@ -44,6 +44,7 @@ Future features/fixes include (note: some todos are mentioned in the files if no
         * Properly store an initial state
     * Assets
         * Rename style names to prevent repeating "product" so much
+        * Rename font variables
     * Components
         * Would be an in-person conversation
     * Misc
